@@ -33,15 +33,16 @@ const myChart = new Chart(ctx, {
             y: {
                 type: 'logarithmic',
                 beginAtZero: true,
-                min: 10,
+                min: 1000000,
                 max: 2000000000000,
             }
         },
     }
 });
 
-myChart.defaults.global.defaultFontFamily = "Indie Flower";
-myChart.defaults.color = "blue";
+//Légende à droite
+myChart.options.plugins.legend.position = 'right';
+myChart.update();
 
 // Initialisation de canvas Spline
 const canvas = document.getElementById('canvas3d');
@@ -359,3 +360,4 @@ $(".filter").click(function () {
     }
 
 });
+
