@@ -108,7 +108,7 @@ window.addEventListener('load', function () {
         document.getElementById('loader').style.display = 'none';
         $('#welcome-modal').modal('show');
     }, 10000);
-    
+
     $('#welcome-modal').on('shown.bs.modal', function () {
         $('#mentionsLegalesButton').css('pointer-events', 'none');
     });
