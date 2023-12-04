@@ -12,8 +12,9 @@ Andy RABARISON : ( Intégrateur 3D / Rédacteur )
 =========== Languages / Outils =========== 
 
 1) Spline pour la modélisation et l'affichage 3D
-2) Bootsrap pour les modals et raccourcis css
-3) Jquery pour certaines expressions en Javascript
+2) Chart.js pour la modélisation des graphiques
+3) Bootsrap pour les modals et raccourcis css
+4) Jquery pour certaines expressions en Javascript
 
 =========== Fonctionnalités =========== 
 
